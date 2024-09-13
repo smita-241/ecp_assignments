@@ -8,9 +8,13 @@ int main()
 	for(i=1;i<=num;i++)
 	{
 		sum=sum*i;
-	
-		printf("%d*",i);
-	}	
+	}         
+	for(i=1;i<=num;i++)
+	{
+		printf("%d",i);
+		if (i!=num)
+			printf("*");
+	}		
 	printf("=%d",sum);
 	
 		
